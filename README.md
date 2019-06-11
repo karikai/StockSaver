@@ -6,4 +6,4 @@ To run this project you must install mySql from https://www.mysql.com/downloads/
 pip install requests <br />
 pip install mysql-connector
 
-If this is your first time runnign the program you need to call the initialize function.
+If this is your first time running the program you need to call the initialize function.
