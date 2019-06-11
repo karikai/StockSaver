@@ -20,12 +20,10 @@ def api(symbol):
 ## Presents JSON from API in a user-friendly format
 def jsonToStock(jsonObj):
     stockDict = json.loads(jsonObj)
-    print("Symbol:")
-    print(stockDict["symbol"])
-    print("Price:")
-    print(stockDict["latestPrice"])
-    print("Company Name:")
-    print(stockDict["companyName"])
+    print("Symbol:", stockDict["symbol"])
+    print("Price:", stockDict["latestPrice"])
+    print("Company Name:", stockDict["companyName"])
+    print("--------------------")
 
 
 end = False
